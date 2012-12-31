@@ -1,0 +1,253 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainView",
+        "requires": [
+            "Ext.Toolbar"
+        ],
+        "designer|initialView": true,
+        "id": "MainView",
+        "defaults": [
+            "{",
+            "    layout: 'hbox',",
+            "    flex: 1",
+            "}",
+            ""
+        ],
+        "layout": "vbox"
+    },
+    "configAlternates": {
+        "cmpArray": "array"
+    },
+    "id": "ExtBox1-ext-gen23945",
+    "designerId": "1ccaedf5-823b-4885-a0a3-3e40b05e1064",
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "docked": "top",
+                "ui": "light",
+                "title": "Chart Me"
+            },
+            "designerId": "f404730d-37a9-4c6d-b41e-20b7d748f59f"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "designer|userClassName": "MyContainer2",
+                "id": "topContainer",
+                "margin": "0 0 0 5",
+                "zIndex": null
+            },
+            "designerId": "5b6d079a-1ced-4211-9064-5e8fbb5eb48b",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "MINT",
+                        "id": "topLeft",
+                        "padding": null,
+                        "style": null
+                    },
+                    "designerId": "69434817-a9ad-4f83-b2ef-1d198088f4a7",
+                    "masterInstanceId": "ExtBox1-ext-gen21348"
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "EGO",
+                        "id": "topRight",
+                        "style": null
+                    },
+                    "designerId": "6f7bc0c4-5185-42ac-9c28-668a99e4d4e5",
+                    "masterInstanceId": "ExtBox1-ext-gen21348"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "designer|userClassName": "MyContainer1",
+                "id": "bottomContainer",
+                "margin": "0 0 5 5",
+                "defaults": [
+                    "{",
+                    "    flex: 1",
+                    "}",
+                    ""
+                ]
+            },
+            "designerId": "e1d98be0-5408-4cca-a006-8f62e3521403",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "LIVESTRONG",
+                        "id": "bottomLeft",
+                        "style": null
+                    },
+                    "designerId": "5d022db0-9930-4d76-9e8d-5ce5823a4c3a",
+                    "masterInstanceId": "ExtBox1-ext-gen21348"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer9",
+                        "id": "bottomRight",
+                        "margin": "0 5 0 0",
+                        "defaults": [
+                            "{",
+                            "    layout: 'hbox',",
+                            "    flex: 1",
+                            "}",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "layout": "vbox"
+                    },
+                    "designerId": "9ecd948c-943a-43ab-8da5-2f7e6e4644ea",
+                    "cn": [
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyContainer2",
+                                "layout": null
+                            },
+                            "designerId": "9cda173e-1acd-4b8e-aa30-6d3aafefedb8",
+                            "cn": [
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "TWITTER",
+                                        "id": "insideTopLeft",
+                                        "style": null
+                                    },
+                                    "designerId": "27fc6c62-49bc-4e74-9ac2-8cd3466f2428",
+                                    "masterInstanceId": "ExtBox1-ext-gen21348"
+                                },
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "BANK of AMERICA",
+                                        "id": "insideTopRight",
+                                        "style": null
+                                    },
+                                    "designerId": "2e4a1e63-f421-43af-8f28-31946a75e7c5",
+                                    "masterInstanceId": "ExtBox1-ext-gen21348"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyContainer2",
+                                "layout": null
+                            },
+                            "designerId": "124fcb19-514b-4369-8dea-980dc2925f0b",
+                            "cn": [
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "FREECREDITREPORT.COM",
+                                        "id": "insideBottomLeft"
+                                    },
+                                    "designerId": "36ac7a4f-31ed-4e36-85b1-a3597b88aa45",
+                                    "masterInstanceId": "ExtBox1-ext-gen21348"
+                                },
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "XBOX LIVE",
+                                        "id": "insideBottomRight",
+                                        "style": null,
+                                        "styleHtmlCls": ""
+                                    },
+                                    "designerId": "c330a47b-6d49-4099-82fe-9b38b7d316e6",
+                                    "masterInstanceId": "ExtBox1-ext-gen21348"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

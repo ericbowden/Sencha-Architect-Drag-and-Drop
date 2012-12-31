@@ -1,0 +1,62 @@
+{
+    "name": "test",
+    "settings": {
+        "urlPrefix": "http://localhost:8888/test/",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 637,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "b904913b-75df-44c1-896e-bf74995c64bd": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "d179dcb7-fc04-4422-8dbd-8ef273210bab": {
+            "paths": [
+                "metadata/view/ChartContainer",
+                "app/view/override/ChartContainer.js",
+                "app/view/ChartContainer.js"
+            ],
+            "className": "ChartContainer"
+        },
+        "1ccaedf5-823b-4885-a0a3-3e40b05e1064": {
+            "paths": [
+                "metadata/view/MainView",
+                "app/view/override/MainView.js",
+                "app/view/MainView.js"
+            ],
+            "className": "MainView"
+        },
+        "2c021b3b-ff97-41b3-bdd1-01e322c87062": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "d179dcb7-fc04-4422-8dbd-8ef273210bab",
+            "1ccaedf5-823b-4885-a0a3-3e40b05e1064"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "b904913b-75df-44c1-896e-bf74995c64bd",
+            "2c021b3b-ff97-41b3-bdd1-01e322c87062"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
